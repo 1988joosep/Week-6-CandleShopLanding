@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Play", sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    align-items: center;
+    background-attachment: fixed;
+    background-image:linear-gradient(to bottom right, #ffffff69, #1809095b),  url(../img/Candle1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    height: 350px;
+    justify-content: center;
+
+}
+
+.intro-image__text a {
+    background-color: #75bbed7a;
+    border: 2px solid #4152;
+    color: #eaa687;
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    text-shadow: 0 0 3px #0c0707, 0 0 5px #e3b841;
+    text-transform: uppercase;
+    transition: all 0.7s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.1)
+}
+
+.intro-text {
+    align-items: center;
+    background-color:  #eaa687;
+    color: #7d6755;
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    margin-top: -2rem;
+    margin-bottom: -4rem;
+    padding: 10 15rem;
+    clip-path: polygon(65% 8%, 100% 0, 100% 43%, 100% 100%, 67% 93%, 33% 88%, 0 91%, 0% 43%, 0 0);
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    animation-name: moveInLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+   
+
+
+}
+
+@keyframes moveInLeft {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+    
+    80% {
+        transform: translateX(50px);
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.text-solid {
+    animation-name: moveInRight;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes moveInRight {
+    0% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    
+    80% {
+        transform: translateX(-50px);
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image:linear-gradient(to bottom right, #ffffff69, #1809095b),  url(../img/Candle3.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    background-color: #ddb38884;
+    border: 2px solid #4152;
+    color: #6f5e12;
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    text-shadow: 0 0 3px #0c0707, 0 0 5px #1f1b10;
+    text-transform: uppercase;
+    transition: all 0.7s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.1)
+}
+
+.packaging-text {
+    background-color:  #94796d;
+    color: #462103;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    margin-top: -2rem;
+    margin-bottom: -4rem;
+    padding: 10 15rem;
+    clip-path: polygon(30% 0, 100% 6%, 100% 43%, 100% 93%, 69% 90%, 33% 95%, 0 100%, 0% 43%, 0 7%);
+    width: 100%;
+    overflow: hidden;
+}
+
+.packaging_text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    animation-name: moveInLeft;
+    animation-duration: 4.5s;
+    animation-timing-function: ease-in-out;
+    
+}
+
+@keyframes moveInLeft {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+    
+    80% {
+        transform: translateX(50px);
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.sub-heading {
+    animation-name: moveInRight;
+    animation-duration: 4.5s;
+    animation-timing-function: ease-in-out;
+    font-size: 1.2rem;
+    padding: 0 15rem;
+   }
+
+@keyframes moveInRight {
+    0% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    
+    80% {
+        transform: translateX(-50px);
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image:linear-gradient(to bottom right, #7e070769, #1809095b),  url(../img/Candle2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.tutorials-image__text a {
+    background-color: #ea537484;
+    border: 2px solid #4152;
+    color: #d2ddde;
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    text-shadow: 0 0 3px #0c0707, 0 0 5px #322b17;
+    text-transform: uppercase;
+    transition: all 0.7s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.1)
+}
+
+
+.footer {
+    background-color: #675151;
+    color: rgb(170, 170,143);
+    font-size: 1.4rem;
+    height: 150px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.footer ul li {
+
+    display: inline-block;
+    margin: 1rem;
+
+}
+
+.footer ul li a {
+    color: rgb(170, 170,143);
+    text-decoration: none;
+}
+
+.footer ul li:hover, .footer ul li a:hover {
+    color: #eaa687;
+    transform: scale();
+}
+
+
+
+
+
