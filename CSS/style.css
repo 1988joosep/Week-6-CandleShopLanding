@@ -245,3 +245,32 @@ body {
         font-size: 1rem;
     }
 }
+
+/* Kohandused väiksemate ekraanide jaoks */
+@media (max-width: 480px) {
+    .intro-image, .packaging-image, .tutorials-image {
+        height: 200px;
+    }
+
+    .intro-image__text a, .packaging-image__text a, .tutorials-image__text a {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    .intro-text, .packaging-text {
+        padding: 10px 2rem;
+    }
+
+    .intro-text__textbox h3, .packaging_text__textbox h3 {
+        font-size: 1.2rem;
+    }
+
+    .sub-heading {
+        font-size: 0.9rem;
+        padding: 0 2rem;
+    }
+
+    .footer {
+        font-size: 0.9rem;
+    }
+}
